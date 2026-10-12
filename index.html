@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MyWeb Studio — создание современных сайтов и веб-приложений.">
+  <title>MyWeb Studio — создание сайтов</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="logo" href="#top"><span>&lt;/&gt;</span> MyWeb <b>Studio</b></a>
+
+      <nav class="nav-links">
+        <a href="#top">Главная</a>
+        <a href="#projects">Проекты</a>
+        <a href="#services">Услуги</a>
+        <a href="#about">Обо мне</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="button button-small" href="#contacts">Написать ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <div class="pill">HTML <span>•</span> CSS <span>•</span> JavaScript</div>
+        <h1>Создаю сайты,<br>которые <span>работают</span></h1>
+        <p class="hero-text">
+          Разрабатываю современные веб-сайты и приложения.
+          Здесь можно посмотреть мои проекты и узнать об услугах.
+        </p>
+        <div class="hero-buttons">
+          <a class="button" href="#projects">Мои проекты →</a>
+          <a class="button button-outline" href="#services">Услуги</a>
+        </div>
+
+        <div class="features">
+          <div><span class="feature-icon">&lt;/&gt;</span><p><b>Чистый код</b><small>HTML, CSS, JS</small></p></div>
+          <div><span class="feature-icon">ϟ</span><p><b>Адаптивность</b><small>Для разных экранов</small></p></div>
+          <div><span class="feature-icon">◇</span><p><b>Современный дизайн</b><small>Удобство и стиль</small></p></div>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Иллюстрация разработки сайта">
+        <div class="art-circle"></div>
+        <div class="code-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <div class="code-lines">
+            <p><span>const</span> website = {</p>
+            <p class="indent">design: <em>"modern"</em>,</p>
+            <p class="indent">responsive: <b>true</b>,</p>
+            <p class="indent">creative: <b>true</b></p>
+            <p>};</p>
+            <br>
+            <p><span>function</span> createWebsite() {</p>
+            <p class="indent">return <em>"Let's build!"</em>;</p>
+            <p>}</p>
+          </div>
+        </div>
+        <div class="art-note">Создаю сайты<br>для ваших идей ✦</div>
+        <div class="art-spark">✦</div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">МОИ ПРОЕКТЫ</p><h2>Реализованные <span>работы</span></h2></div>
+          <p class="heading-note">Здесь представлены мои проекты.<br>Нажмите, чтобы посмотреть их в действии.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art clicker-art">
+              <span class="project-number">01 / GAME</span>
+              <div class="project-emoji">🪙</div>
+              <h3>CLICKER QUEST</h3>
+              <p>CLICK · EARN · UPGRADE</p>
+            </div>
+            <div class="project-info">
+              <div class="tags"><span>JavaScript</span><span>Игра</span></div>
+              <h3>Кликер с прокачкой</h3>
+              <p>Браузерная игра с кликами, заработком монет и улучшениями.</p>
+              <a class="button" href="https://abobycmegaamega-pixel.github.io/Core-Space-Clicker/" target="_blank" rel="noopener noreferrer">Открыть проект ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art password-art">
+              <span class="project-number">02 / TOOL</span>
+              <div class="project-emoji">🔐</div>
+              <h3>PASSWORD GEN</h3>
+              <p>✳ • • • • • • • • • •</p>
+            </div>
+            <div class="project-info">
+              <div class="tags"><span>JavaScript</span><span>Инструмент</span></div>
+              <h3>Генератор паролей</h3>
+              <p>Инструмент для создания случайных паролей с настройками.</p>
+              <a class="button" href=" https://abobycmegaamega-pixel.github.io/password-generator./" target="_blank" rel="noopener noreferrer">Открыть проект ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="services">
+      <div class="section-heading">
+        <div><p class="eyebrow">УСЛУГИ</p><h2>Что я <span>предлагаю</span></h2></div>
+        <p class="heading-note">Стоимость зависит от сложности<br>и необходимых функций.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">▣</div>
+          <h3>Сайт-визитка</h3>
+          <p>Простая и красивая страница для проекта, команды или личного бренда.</p>
+          <div class="price">от 200 ₽</div>
+          <button class="button order-button" type="button" data-service="Сайт-визитка" data-price="от 200 ₽">Заказать сайт →</button>
+        </article>
+
+        <article class="service-card service-featured">
+          <span class="popular">Популярный формат</span>
+          <div class="service-icon">ϟ</div>
+          <h3>Лендинг</h3>
+          <p>Одностраничный сайт с современным дизайном, блоками и кнопками.</p>
+          <div class="price">от 500 ₽</div>
+          <button class="button order-button" type="button" data-service="Лендинг" data-price="от 500 ₽">Заказать сайт →</button>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">⚙</div>
+          <h3>Веб-приложение</h3>
+          <p>Интерактивные инструменты, калькуляторы, генераторы и мини-игры.</p>
+          <div class="price">от 700 ₽</div>
+          <button class="button order-button" type="button" data-service="Веб-приложение" data-price="от 700 ₽">Заказать сайт →</button>
+        </article>
+      </div>
+      <p class="price-note">Указаны начальные цены. Итоговую стоимость согласуем до начала работы.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-content">
+        <div class="about-illustration"><span>&lt;/&gt;</span><small>IDEAS INTO WEBSITES</small></div>
+        <div>
+          <p class="eyebrow">ОБО МНЕ</p>
+          <h2>Учусь, создаю, <span>развиваюсь</span></h2>
+          <p>Создаю сайты в Visual Studio Code с помощью HTML, CSS и JavaScript. Изучаю веб-разработку и работаю над собственными проектами.</p>
+          <div class="tags about-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>VS Code</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contacts">
+      <div>
+        <p class="eyebrow">КОНТАКТЫ</p>
+        <h2>Давай создадим что-то <span>классное</span></h2>
+        <p>Есть идея или вопрос? Напиши мне я отвечу — обсудим проект.</p>
+      </div>
+      <div class="contact-buttons">
+        <!-- Замени YOUR_USERNAME на свой Telegram username -->
+        <a class="button" href="https://t.me/CollierLuis385" target="_blank" rel="noopener noreferrer">↗ Написать в Telegram</a>
+        <!-- Замени адрес на отдельную почту для проектов, если она у тебя есть -->
+        <a class="button button-outline" href="mailto:abobycmegaamega@gmail.com">✉ Написать на почту</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="logo" href="#top">MyWeb <b>Studio</b></a>
+      <p>Создано с интересом к веб-разработке · 2026</p>
+      <a href="#top">↑ Наверх</a>
+    </div>
+  </footer>
+
+
+  <div class="order-modal" id="orderModal" aria-hidden="true">
+    <div class="order-modal-backdrop" data-order-close></div>
+    <section class="order-dialog" role="dialog" aria-modal="true" aria-labelledby="orderTitle">
+      <button class="order-close" type="button" aria-label="Закрыть форму" data-order-close>×</button>
+      <p class="eyebrow">ЗАКАЗ САЙТА</p>
+      <h2 id="orderTitle">Расскажи о своей <span>идее</span></h2>
+      <p class="order-intro">Заполни форму — мы подготовим сообщение с деталями заказа.</p>
+      <form id="orderForm">
+        <label for="orderService">Что нужно сделать?</label>
+        <select id="orderService" name="service" required>
+          <option value="Сайт-визитка">Сайт-визитка — от 200 ₽</option>
+          <option value="Лендинг">Лендинг — от 500 ₽</option>
+          <option value="Веб-приложение">Веб-приложение — от 700 ₽</option>
+          <option value="Другое">Другое / пока не знаю</option>
+        </select>
+        <label for="orderName">Как к тебе обращаться?</label>
+        <input id="orderName" name="name" type="text" maxlength="60" placeholder="Имя или никнейм" required>
+        <label for="orderDetails">Опиши идею</label>
+        <textarea id="orderDetails" name="details" rows="4" maxlength="1500" placeholder="Какие страницы и функции нужны?" required></textarea>
+        <label for="orderContact">Как с тобой связаться?</label>
+        <input id="orderContact" name="contact" type="text" maxlength="120" placeholder="Например, Telegram или почта" required>
+        <p class="order-privacy">после заполнения отправь мне по кнопке написать.</p>
+        <button class="button order-submit" type="submit">Подготовить заявку →</button>
+        <p class="order-status" id="orderStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
